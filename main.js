@@ -3,7 +3,7 @@
  *******************/
 
 function yell(string){
-  yell =string + "!";
+  yell = string + "!";
   return yell;
 }
 
@@ -32,7 +32,7 @@ function yellLouder(string){
 }
 
 function getInitials(string){
-  return string;
+  return string[0] + '.' + string[string.indexOf(' ') + 1] + '.'; 
 }
 
 
